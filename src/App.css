@@ -122,6 +122,23 @@ header {
   margin: 0 auto;
 }
 
+/* Website click through URL styling */
+.order-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #ffffff;
+  background-color: #6a1b9a;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.order-link:hover {
+  background-color: #5a0f7a; /* Darken color on hover */
+}
+
+
 /* Bio styling - Responsive layout for mobile devices */
 @media (max-width: 600px) {
   .bio {
