@@ -5,12 +5,20 @@ const Contact = () => {
     <div className="contact">
       <h2>Contact</h2>
       <p>
-        For inquiries, feel free to reach out via{' '}
-        <a href="mailto:your-email@example.com">email</a> or connect with me on social media.
+        For inquiries, feel free to visit my contact page{' '}
+        <a 
+          href="https://tally.so/r/3XWVxd" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="contact-link"
+        >
+          here
+        </a>.
       </p>
     </div>
   );
 };
 
 export default Contact;
+
 

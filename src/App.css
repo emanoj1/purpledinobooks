@@ -71,6 +71,16 @@
   text-decoration: none;
 }
 
+.contact-link {
+  color: #6a1b9a; /* Adjust color as needed */
+  text-decoration: underline;
+}
+
+.contact-link:hover {
+  text-decoration: none; /* Optional: removes underline on hover */
+}
+
+
 /* App styling */
 
 .App {
