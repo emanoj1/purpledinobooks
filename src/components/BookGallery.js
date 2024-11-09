@@ -4,12 +4,12 @@ const books = [
   {
     title: 'Chester, The Purple Dino: The Fruity City Expedition',
     description: 'A kids picture book!',
-    image: '/images/book1.jpg',
+    image: '/images/ChesterFruityBookCover_090324.jpg',
   },
   {
     title: 'Sydney Trains and Station Sketches',
     description: 'A collection of 40-odd freehand drawings!',
-    image: '/images/book2.jpg',
+    image: '/images/SydneyTrainsBookcover_080924.png',
   },
   // Add more books here as needed
 ];
