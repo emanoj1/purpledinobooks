@@ -34,13 +34,31 @@
 }
 
 /* Bio section styling */
+/* Responsive styling for bio at the bottom */
 
 .bio {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
+  text-align: left;
+  gap: 1.5rem;
+  flex-direction: row; /* Default layout: image and text side-by-side */
 }
+
+.bio-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover;   /* Ensures the image covers without distortion */
+}
+
+.bio-text {
+  max-width: 600px;
+}
+
 
 /* Contact section styling */
 
@@ -92,4 +110,20 @@ header {
   color: #333;
   max-width: 800px;
   margin: 0 auto;
+}
+
+/* Bio styling - Responsive layout for mobile devices */
+@media (max-width: 600px) {
+  .bio {
+    flex-direction: column; /* Stacks image above text */
+    text-align: center;     /* Centers content for a balanced look */
+  }
+
+  .bio-image {
+    margin-bottom: 1rem; /* Adds space between image and text */
+  }
+
+  .bio-text {
+    max-width: 100%;      /* Full width on mobile */
+  }
 }
