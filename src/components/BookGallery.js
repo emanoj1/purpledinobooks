@@ -17,7 +17,7 @@ const books = [
 const BookGallery = () => {
   return (
     <div className="book-gallery">
-      <h2>Books by Purple Dino</h2>
+      <h2>Books Launched!!</h2>
       <div className="books">
         {books.map((book, index) => (
           <div className="book" key={index}>
