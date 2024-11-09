@@ -15,20 +15,22 @@ const books = [
 ];
 
 const BookGallery = () => {
-  return (
-    <div className="book-gallery">
-      <h2>Books Launched!!</h2>
-      <div className="books">
-        {books.map((book, index) => (
-          <div className="book" key={index}>
-            <img src={book.image} alt={book.title} />
-            <h3>{book.title}</h3>
-            <p>{book.description}</p>
-          </div>
-        ))}
+    return (
+      <div className="book-gallery">
+        <h2>Launched books!</h2>
+        <div className="books">
+          {books.map((book, index) => (
+            <div className="book" key={index}>
+              <div className="image-container">
+                <img src={book.image} alt={book.title} className="book-image" />
+              </div>
+              <h3>{book.title}</h3>
+              <p>{book.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 
 export default BookGallery;

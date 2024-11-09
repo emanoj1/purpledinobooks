@@ -13,13 +13,24 @@
 }
 
 .book {
-  width: 200px;
+  width: 300px;
+  text-align: center;
 }
 
-.book img {
-  width: 100%;
-  height: auto;
+.image-container {
+  width: 100%;          /* Full width of the card */
+  height: 350px;        /* Fixed height for image container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
   border-radius: 8px;
+  background-color: #f3f3f3; /* Optional background to frame images */
+}
+
+.book-image {
+  max-width: 100%;      /* Scales the image within the container */
+  max-height: 100%;     /* Ensures image fits within the height without cropping */
 }
 
 /* Bio section styling */
