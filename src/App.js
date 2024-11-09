@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Welcome to Purple Dino Books</h1>
+        <img src="/images/PurpleDinoBooksLogo.png" alt="Purple Dino Books Logo" className="logo" />
       </header>
       <main>
         <BookGallery />
@@ -23,4 +23,5 @@ function App() {
 }
 
 export default App;
+
 
