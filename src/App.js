@@ -11,7 +11,7 @@ function App() {
         <img src="/images/PurpleDinoBooksLogo.png" alt="Purple Dino Books Logo" className="logo" />
       </header>
       <div className="welcome-message">
-        <p> Welcome and thank you for checking out my books! </p>
+        <p> Hi, I am Manoj! Welcome and thank you for checking out my books! </p>
         <p>Dive into my world of imagination, inspiration, and adventure! I hope you enjoy exploring these stories as much as I enjoyed bringing them to life!</p>
       </div>
       <main>

@@ -24,6 +24,10 @@ const Bio = () => {
           bento.me/emanoj
         </a>.
       </p>
+      <p>
+        By the way, if you need PDF versions of these books, please find them on <a href="https://ko-fi.com/emanoj/shop" target="_blank" rel="noopener noreferrer"> the author's Ko-fi page </a>.
+      </p>
+
         </div>
     </div>
   );

@@ -13,7 +13,14 @@ const books = [
     image: '/images/SydneyTrainsBookcover_080924.png',
     url: 'https://amzn.to/3AmmOp6', /* Amazon ref link*/
   },
-  // Add more books here as needed
+
+  {
+    title: 'The Colouring Book of Many Things!',
+    description: 'Cute Creatures, Cool Cars & Cozy Moments',
+    image: '/images/ColouringBookMockup.png',
+    url: 'https://amzn.to/4lFN7cw', /* Amazon ref link*/
+  },
+
 ];
 
 const BookGallery = () => {
